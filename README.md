@@ -1,3 +1,23 @@
+## Project setup
+```
+composer install
+npm install
+```
+
+## Run Migration File (Given you have setup a .env file)
+```
+php artisan migrate
+php artisan passport:install
+php artisan db:seed
+```
+
+## Run Application
+```
+php artisan serve
+npm run watch (it can also be dev or prod) 
+```
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
